@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- meta untuk responsive -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- mobile meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<!-- judul untuk website -->
+<title>lock home</title> <!-- ini adalah halaman lock home, user tidak bisa menggunakan website utama sebelum melewati halaman ini, cara melewati halaman ini adalah dengan register dan login --> 
+
+<!-- Meta keyword berfungsi untuk kaya kunci untuk website-->
+<meta name="keywords" content="bahtera mart kalsel">
+
+<!-- meta description berfungsi sebagai deskpripsi pada website-->
+<meta name="description" content="bahtera mart adalah sebuah supermarket yang menjual kebutuhan pokok seperti perlengkapan rumah tangga">
+
+ <!--meta author berfungsi sebagai nama outhor dari website ini -->
+<meta name="author" content="muhammad aryanda sanggadiennata">	
+
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+<body>
+	<header>
+		<div class="layout_padding banner_section_start">
+
+
+         <!-- untuk bagian header pada websitenya yang berisi link untuk menuju halaman lain -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo"><a href="#home"><img src="images/bahtera.png" style="max-width: 100%;"></a> 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="menu-area">
+                        <div class="limit-box">
+                           <nav class="main-menu">
+                              <ul class="menu-area-main">
+                                 <!-- untuk menuju halaman utama-->
+                                 <li class="active"><a href="php/login.php">halaman utama</a></li>
+                                 <!-- untuk menuju ke halaman about yang berisi apapun tentang bahtera mart--> 
+                                 <li><a href="php/login.php">tentang</a></li>
+                                 <!-- menuju halaman product yang berisi apapun yang dijual bahtera-->
+                                 <li><a href="php/login.php">produk</a></li>
+                                 <!-- menuju halaman gallery yang  berisi desain desain para anak magang pplg-->
+                                 <li><a href="php/login.php">gallery</a></li>
+                                 <!-- untuk menuju ke halaman kontak yang berisi kontak dan sosomed bahtera mart-->
+                                 <li><a href="php/login.php">kontak</a></li>
+                                 <!-- link untuk menuju halaman login-->
+                                 <li ><a href="php/login.php">login</a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+         <!-- akhir dari header-->	
+
+	<!--codingan untuk banner-->
+	<div class="layout_padding banner_section">
+		<div class="container">
+           <div id="main_slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row ">
+				<div class="col-md-6 taital">
+					<h1>welcome to<strong class="banner_taital" style="color: green;">bahtera mart</strong></h1> <!-- kalimat untuk halaman utama nya-->
+				</div>
+				<div class="col-md-6">
+					<div class="banner-image"> <a href="php/login.php"><img src="images/log.png" style="max-width: 100%;"></a></div> <!-- ketika gambar di halaman utama di pencet, maka akan menuju ke link delivery mart-->
+				</div>
+   </div>
+	</div>
+	</div>
+   </div>
+	</header>
+	<!-- banner end-->
+
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+      <script>
+      $(document).ready(
+         function(){
+      $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+      $(".zoom").hover(
+         function(){
+         $(this).addClass('transition');
+         }, 
+         function()
+         {
+         $(this).removeClass('transition');
+         });
+         });
+      </script> 
+
+         <script>
+        </script>
+
+</body>
+</html>
